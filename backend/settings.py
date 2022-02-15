@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4t_xca9$=w80$uq357l&itf=xn*khrhim0v8lh!(ed@n8ijw#=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = ['https://trendall-api.herokuapp.com/']
 
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 
