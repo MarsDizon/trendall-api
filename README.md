@@ -24,6 +24,12 @@ Install all listed dependencies outlined in requirements.txt.
 Runs the app in the development mode.<br />
 This command runs a emulated server on your local computer. 
 
+## Frontend
+API
+The frontend of the Trendall Archive is hosted seperately from the API. You can find the repository for the frontend here.
+
+https://github.com/MarsDizon/trendall-archive
+
 ## Libraries Used
 This project was created with:
 - Django
