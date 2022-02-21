@@ -24,6 +24,6 @@ router.register(r'filterVase', views.FilterVases, 'filterVase')
 router.register(r'getPlate', views.GetPlate, 'getPlate')
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
